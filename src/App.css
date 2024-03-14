@@ -1,0 +1,31 @@
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#main_progress{
+  position: relative;
+  width: 40%;
+  height: 5vh;
+  border-radius: 1rem;
+  background-color: rgba(245, 245, 245, 0.797);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#progressBar{
+  background-color: #00C251;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+span{
+  font-weight: 600  ;
+
+  position: absolute;
+  top: 10%;
+  left: 48%;
+}
+p{
+  font-weight: 700;
+}
